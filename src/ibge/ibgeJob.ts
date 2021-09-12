@@ -1,5 +1,6 @@
-import IbgeApiService from '../service/IbgeApiService';
-import { cron } from 'node-cron';
+import IbgeApiService from "../service/IbgeApiService"
+import cron  from "node-cron";
+
 
 cron.schedule("* * * * * *", () => { IbgeApiService.execute()},{
     scheduled: true,

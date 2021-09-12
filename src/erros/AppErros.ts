@@ -1,3 +1,5 @@
+
+
 export default class AppErros {
     public readonly message: string;
 
@@ -6,5 +8,5 @@ export default class AppErros {
     constructor(message: string, statusCode = 500) {
         this.message = message;
         this.statusCode = statusCode;
-  }
+    }
 }

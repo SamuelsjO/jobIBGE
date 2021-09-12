@@ -1,0 +1,32 @@
+Arguments: 
+  /l/disk0/soliveira/.nvm/versions/node/v10.24.1/bin/node /usr/local/bin/yarn add express
+
+PATH: 
+  /l/disk0/soliveira/.nvm/versions/node/v10.24.1/bin:/l/disk0/soliveira/anaconda3/bin:/l/disk0/soliveira/anaconda3/condabin:/l/disk0/soliveira/.local/bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  10.24.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EBUSY registry.yarnpkg.com registry.yarnpkg.com:443
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+
+npm manifest: 
+  {
+    "name": "jobIBGE",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
