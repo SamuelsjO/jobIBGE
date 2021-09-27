@@ -7,7 +7,7 @@ Job to search for cities and states in Brazil directly from the IBGE API
 
 
 ###
-1 - create an IBGE table with the fields { ID: int, STATE: string, CITY: string }, the bank option was sqlite.
+1 - create an IBGE table with the fields and database db_ibge { ID: int, STATE: string, CITY: string }, the bank option was sqlite.
 
 to raise the service:
 
